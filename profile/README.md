@@ -20,11 +20,11 @@ In surgery, the sterile field is the boundary that decides what may touch the pa
 | 4 · Independent review | A separate reviewer signs off before release (`docs/review/REVIEW_PASS.md`) |
 | 5 · Owner gate | The owner confirms by hand, and picks the licence, before the repo goes public |
 
-## What will live here
+## Showcases
 
 | Repository | What it is | Status |
 |---|---|---|
-| `empire-os-reference-architecture` | 5-tier layout of a governed multi-agent platform on constrained hardware (8 GB control plane, test-gated releases, kill switch with human approval tiers) | In preparation |
+| [`empire-os-reference-architecture`](https://github.com/sterilefield/empire-os-reference-architecture) | 5-tier layout of a governed multi-agent platform on constrained hardware (8 GB control plane, 99/99-suite release gate, kill switch with human approval tiers) | **Public** |
 | `llm-token-economics` | How heartbeat token use fell 91% (12.0 M → 1.0 M a day) and the method behind it | In preparation |
 | `agent-governance-kit` | Autonomy levels L0–L4, risk classes R0–R4, approval and audit templates mapped to OWASP Agentic Top 10, NIST AI RMF and ISO/IEC 42001 | Planned |
 | `whatsapp-agent-case-study` | Anonymised case study: a single-writer SQLite spine behind a 15-agent WhatsApp and Telegram operations platform | Planned |
