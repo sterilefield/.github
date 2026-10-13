@@ -26,7 +26,7 @@ In surgery, the sterile field is the boundary that decides what may touch the pa
 |---|---|---|
 | [`empire-os-reference-architecture`](https://github.com/sterilefield/empire-os-reference-architecture) | 5-tier layout of a governed multi-agent platform on constrained hardware (8 GB control plane, 99/99-suite release gate, kill switch with human approval tiers) | **Public** |
 | [`llm-token-economics`](https://github.com/sterilefield/llm-token-economics) | How an agent fleet's heartbeat tokens fell 91% (12.0 M → 1.0 M a day): 18 methods, a case study and an audit checklist | **Public** |
-| `agent-governance-kit` | Autonomy levels L0–L4, risk classes R0–R4, approval and audit templates mapped to OWASP Agentic Top 10, NIST AI RMF and ISO/IEC 42001 | In preparation |
+| [`agent-governance-kit`](https://github.com/sterilefield/agent-governance-kit) | Autonomy levels L0–L4, risk classes R0–R4, approval tiers, kill switches and audit templates mapped to OWASP Agentic Top 10, NIST AI RMF and ISO/IEC 42001, with a healthcare overlay for India | **Public** |
 | `whatsapp-agent-case-study` | Anonymised case study: a single-writer SQLite spine behind a 15-agent WhatsApp and Telegram operations platform | Planned |
 
 Repositories appear as each one passes all five gates. Nothing is published early.
