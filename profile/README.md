@@ -35,4 +35,4 @@ Repositories appear as each one passes all five gates. Nothing is published earl
 
 **Dr. Ravi Teja Thiriveedhi** · clinician turned AI systems architect · 20 years of clinical practice and hospital operations · Hyderabad, India (IST)
 
-[GitHub](https://github.com/Raviteja2k2k) · [LinkedIn](https://www.linkedin.com/in/dr-ravi-teja-clinical-ai) · dr.raviteja1981.new@gmail.com
+[GitHub](https://github.com/Raviteja2k2k) · [LinkedIn](https://www.linkedin.com/in/dr-ravi-teja-thiriveedhi) · dr.raviteja1981.new@gmail.com
