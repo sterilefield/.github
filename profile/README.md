@@ -17,7 +17,7 @@ In surgery, the sterile field is the boundary that decides what may touch the pa
 | 1 · Allow-list | Only files written for publication are copied out, never whole private repos |
 | 2 · Secret and deny-list scan | `gitleaks` across the full history, plus a deny-list of client names, hosts and personal data |
 | 3 · Fresh history | Each showcase starts a new git history; private history never ships |
-| 4 · Independent review | A separate reviewer signs off before release (`docs/review/REVIEW_PASS.md`) |
+| 4 · Fresh-context review | An AI reviewer that did not write the material signs off before release (`docs/review/REVIEW_PASS.md`); gate 5 is the human check |
 | 5 · Owner gate | The owner confirms by hand, and picks the licence, before the repo goes public |
 
 ## Showcases
@@ -29,10 +29,12 @@ In surgery, the sterile field is the boundary that decides what may touch the pa
 | [`agent-governance-kit`](https://github.com/sterilefield/agent-governance-kit) | Autonomy levels L0–L4, risk classes R0–R4, approval tiers, kill switches and audit templates mapped to OWASP Agentic Top 10, NIST AI RMF and ISO/IEC 42001, with a healthcare overlay for India | **Public** |
 | [`whatsapp-agent-case-study`](https://github.com/sterilefield/whatsapp-agent-case-study) | Anonymised case study: a single-writer SQLite spine behind a 15-agent WhatsApp and Telegram operations platform for a real-estate brokerage (460+ leads, −91% heartbeat tokens, owner-approved messaging) | **Public** |
 
-All four showcases have passed the five gates. Nothing is published early.
+All four showcases have passed the five gates. Nothing is published early. How work becomes public, and what never does: [publication policy](https://github.com/sterilefield/.github/blob/main/PUBLICATION_POLICY.md).
+
+**Start here:** [`whatsapp-agent-case-study`](https://github.com/sterilefield/whatsapp-agent-case-study) for a live client system, then [`agent-governance-kit`](https://github.com/sterilefield/agent-governance-kit) for how the agents are kept in check.
 
 ## Maintainer
 
-**Dr. Ravi Teja Thiriveedhi** · clinician turned AI systems architect · 20 years of clinical practice and hospital operations · Hyderabad, India (IST)
+A one-person lab maintained by **Dr. Ravi Teja Thiriveedhi** ([@Raviteja2k2k](https://github.com/Raviteja2k2k)) · clinician turned AI systems architect · 20 years of clinical practice and hospital operations · Hyderabad, India (IST)
 
-[GitHub](https://github.com/Raviteja2k2k) · [LinkedIn](https://www.linkedin.com/in/dr-ravi-teja-thiriveedhi) · dr.raviteja1981.new@gmail.com
+[GitHub](https://github.com/Raviteja2k2k) · [LinkedIn](https://www.linkedin.com/in/dr-ravi-teja-thiriveedhi) · dr.raviteja1981.new@gmail.com · private walkthroughs of my own production systems on request, under NDA (client systems only with the client's permission)
